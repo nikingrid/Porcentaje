@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Start {
 
@@ -6,6 +7,10 @@ public class Start {
 
 		Operaciones op1= new Operaciones ();
 		
+		Scanner add=new Scanner(System.in);
+		
+		System.out.print("Intruduzca número: ");
+		op1.setP(add.nextInt());
 		op1.porcentaje();
 	}
 
