@@ -25,7 +25,11 @@ public class Operaciones {
 		this.p = p;
 	}
 	
-	
+	//Metodos
+	public void porcentaje() {
+		this.p=this.p*10;
+		
+	}
 	
 	
 }
