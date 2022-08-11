@@ -6,10 +6,12 @@ public class Start {
 		// TODO Auto-generated method stub
 
 		Operaciones op1= new Operaciones ();
+		Operaciones op2= new Operaciones ();
+		Operaciones op3= new Operaciones ();
 		
 		Scanner add=new Scanner(System.in);
 		
-		System.out.print("Intruduzca número: ");
+		System.out.print("Intruduzca préstamo inicial: ");
 		op1.setP(add.nextInt());
 		op1.porcentaje();
 	}

@@ -30,7 +30,7 @@ public class Operaciones {
 		
 		this.r=this.p*10/100;
 		this.r=this.p-this.r;
-		System.out.print(r);
+		System.out.print("Sigues debiendo " +r);
 	}
 	
 	
