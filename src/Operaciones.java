@@ -2,7 +2,7 @@
 public class Operaciones {
 
 	//variables
-	protected int r;
+	protected int r; 
 	protected int p;
 	
 	//constructor
@@ -27,8 +27,10 @@ public class Operaciones {
 	
 	//Metodos
 	public void porcentaje() {
-		this.p=this.p*10;
-		this.r=this.p/100;
+		
+		this.r=this.p*10/100;
+		this.r=this.p-this.r;
+		System.out.print(r);
 	}
 	
 	
